@@ -1,0 +1,36 @@
+"""Shared text, caption, and matching helpers."""
+from app.utils.text import (
+    addresses_match,
+    caption_pieces,
+    chair_handoff,
+    clean_caption,
+    code_key,
+    codes_match,
+    load_captions,
+    name_looks_like_code,
+    names_match,
+    normalize,
+    project_names_match,
+    section_kind,
+    similar,
+    text_between,
+    window_lines,
+)
+
+__all__ = [
+    "addresses_match",
+    "caption_pieces",
+    "chair_handoff",
+    "clean_caption",
+    "code_key",
+    "codes_match",
+    "load_captions",
+    "name_looks_like_code",
+    "names_match",
+    "normalize",
+    "project_names_match",
+    "section_kind",
+    "similar",
+    "text_between",
+    "window_lines",
+]
