@@ -76,6 +76,7 @@ Browsers cannot grant a host filesystem path to the server. That is why the corp
 ```text
 DCViewer/
   README.md
+  CONCEPTS.md                   # definitions: section, fact, project, …
   ARCHITECTURE.pdf              # system design boards
   DCViewer_walkthrough_vo.mp4   # short evaluator walkthrough
   docker-compose.yml
@@ -100,6 +101,7 @@ See `eval/README.md`. Metrics land in `eval/results/latest.json`.
 
 ## Notes for evaluators
 
+- Definitions of **location / meeting / section / person / fact / project / finding**: see [`CONCEPTS.md`](CONCEPTS.md).
 - Full corpus ingest (~3k transcripts) is slow and costs model calls — use `limit` in the Run panel.
 - ASR noise can create near-duplicate project/person names; codes help when present.
 - Architecture boards: `ARCHITECTURE.pdf`. Walkthrough video: `DCViewer_walkthrough_vo.mp4`.
